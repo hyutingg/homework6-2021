@@ -1,9 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    font-size: 16pt; /* test for this! Make all sizes em or rem */
+    font-size: 1.31em; /* test for this! Make all sizes em or rem */
     font-family: 'Alegreya Sans SC', serif;
-    background-image: url('../images/concrete_seamless.png'), ;
+    background-image: url('../images/concrete_seamless.png');
     background-color: #f1f1f1;
   }
   
@@ -156,7 +156,7 @@ body{
   #logo{
     animation-name: logo_grow;
     animation-duration: 5s;
-    animation-iteration-count: 0;
+    animation-iteration-count: 1;
   }
 
   @-webkit-keyframes logo_grow{
