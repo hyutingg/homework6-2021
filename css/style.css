@@ -134,11 +134,13 @@ body{
 
     .pricing{
       align-items: flex-end;
+      flex-wrap: nowrap;
     }
 
     .card{
       border: solid 2px #45ADDD;
       flex-basis: 250px;
+      flex-wrap: nowrap;
       
     }
 
